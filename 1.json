@@ -1,0 +1,294 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Chamadas Remember 1",
+    "dateExported": "2023-09-28T13:36:54.907Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "ecdb013b-fc95-44c6-a167-f70a2ed9f0e5",
+            "name": "Usuário",
+            "containerId": "",
+            "created": "2023-09-28T11:16:53.851Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "95f3fc82-5e59-4e24-ba5c-35360d3c9e39",
+            "name": "Tarefas",
+            "containerId": "",
+            "created": "2023-09-28T13:02:00.954Z",
+            "sortNum": 20000
+        },
+        {
+            "_id": "2292ee2e-3a5f-48b5-b14e-170a20406606",
+            "name": "Feed",
+            "containerId": "",
+            "created": "2023-09-28T13:17:56.923Z",
+            "sortNum": 30000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "a7a01c6b-1e85-49e4-b8ec-59a5486db5a1",
+            "colId": "ce3c101b-616b-4368-863a-e45a3fc759f0",
+            "containerId": "ecdb013b-fc95-44c6-a167-f70a2ed9f0e5",
+            "name": "Login Usuário",
+            "url": "http://localhost:3000/login",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-09-28T11:17:06.747Z",
+            "modified": "2023-09-28T12:32:21.627Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"emailteste@gmail.com\",\n  \"senha\": \"senha1234516\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "4e159175-6f71-4ad0-9c32-def204d05500",
+            "colId": "ce3c101b-616b-4368-863a-e45a3fc759f0",
+            "containerId": "ecdb013b-fc95-44c6-a167-f70a2ed9f0e5",
+            "name": "Insert Usuário",
+            "url": "http://localhost:3000/users",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-09-28T11:17:12.314Z",
+            "modified": "2023-09-28T12:43:05.774Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\": \"id-teste-1\",\n  \"nome\": \"João\",\n  \"sobrenome\": \"Sobrenome\",\n  \"email\": \"emailteste@gmail.com\",\n  \"senha\": \"senha1234516\",\n  \"dataNascimento\": \"10/02/2023\",\n  \"admin\": false\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "c269ce9b-da4e-4edd-b8ae-20e8e964fe74",
+            "colId": "ce3c101b-616b-4368-863a-e45a3fc759f0",
+            "containerId": "ecdb013b-fc95-44c6-a167-f70a2ed9f0e5",
+            "name": "Update Usuário",
+            "url": "http://localhost:3000/users/:id",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2023-09-28T11:17:22.554Z",
+            "modified": "2023-09-28T13:15:44.162Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\": \"0e74b605-3f95-4742-97c2-25911fcacc90\",\n  \"nome\": \"Pão\",\n  \"sobrenome\": \"Sobrenome\",\n  \"email\": \"emailteste@gmail.com\",\n  \"senha\": \"senha1234516\",\n  \"dataNascimento\": \"10/02/2023\",\n  \"admin\": false\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVtYWlsdGVzdGVAZ21haWwuY29tIiwiaWF0IjoxNjk1OTA1MDAwLCJleHAiOjE2OTU5OTE0MDAsInN1YiI6Im90aGVycyJ9.EJMbSdqPAldcg-tWJYqh_Wo2HPp1FFzFXPSDSZJN4ck"
+            },
+            "tests": []
+        },
+        {
+            "_id": "e765cd99-66e0-44f1-8e9c-0772709fa35a",
+            "colId": "ce3c101b-616b-4368-863a-e45a3fc759f0",
+            "containerId": "ecdb013b-fc95-44c6-a167-f70a2ed9f0e5",
+            "name": "List Usuário",
+            "url": "http://localhost:3000/users",
+            "method": "GET",
+            "sortNum": 45000,
+            "created": "2023-09-28T12:58:08.043Z",
+            "modified": "2023-09-28T12:58:31.592Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVtYWlsdGVzdGVAZ21haWwuY29tIiwiaWF0IjoxNjk1OTA1MDAwLCJleHAiOjE2OTU5OTE0MDAsInN1YiI6Im90aGVycyJ9.EJMbSdqPAldcg-tWJYqh_Wo2HPp1FFzFXPSDSZJN4ck"
+            },
+            "tests": []
+        },
+        {
+            "_id": "31bbb3e5-3d21-46c9-aa76-d67741333f63",
+            "colId": "ce3c101b-616b-4368-863a-e45a3fc759f0",
+            "containerId": "ecdb013b-fc95-44c6-a167-f70a2ed9f0e5",
+            "name": "Delete Usuário",
+            "url": "http://localhost:3000/users/0e74b605-3f95-4742-97c2-25911fcacc90",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2023-09-28T11:17:28.026Z",
+            "modified": "2023-09-28T12:59:26.241Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVtYWlsdGVzdGVAZ21haWwuY29tIiwiaWF0IjoxNjk1OTA1MDAwLCJleHAiOjE2OTU5OTE0MDAsInN1YiI6Im90aGVycyJ9.EJMbSdqPAldcg-tWJYqh_Wo2HPp1FFzFXPSDSZJN4ck"
+            },
+            "tests": []
+        },
+        {
+            "_id": "5051bf7f-b24a-4e76-bad1-01bb29a298f7",
+            "colId": "ce3c101b-616b-4368-863a-e45a3fc759f0",
+            "containerId": "95f3fc82-5e59-4e24-ba5c-35360d3c9e39",
+            "name": "Insert Tarefas",
+            "url": "http://localhost:3000/task",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2023-09-28T13:02:42.697Z",
+            "modified": "2023-09-28T13:12:50.764Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\": \"id-tarefa-1\",\n  \"nomeTarefa\": \"Tarefa1\",\n  \"descricaoTarefa\": \"Escovar os dentes\",\n  \"iconeTarefa\": \"Dente\",\n  \"corTarefa\": \"Amarelo\",\n  \"reptirTarefa\": true,\n  \"frequenciaTarefa\": 5,\n  \"dataEncerramento\": \"10/10/3698\",\n  \"lembrete\": \"ESCOVA OS DENTES SEU PORCO!!!!!\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVtYWlsdGVzdGVAZ21haWwuY29tIiwiaWF0IjoxNjk1OTA1MDAwLCJleHAiOjE2OTU5OTE0MDAsInN1YiI6Im90aGVycyJ9.EJMbSdqPAldcg-tWJYqh_Wo2HPp1FFzFXPSDSZJN4ck"
+            },
+            "tests": []
+        },
+        {
+            "_id": "0ee28c51-6c0a-446c-8700-1b0d0c5f1e0d",
+            "colId": "ce3c101b-616b-4368-863a-e45a3fc759f0",
+            "containerId": "95f3fc82-5e59-4e24-ba5c-35360d3c9e39",
+            "name": "Update Tarefas",
+            "url": "http://localhost:3000/task/:id",
+            "method": "PUT",
+            "sortNum": 80000,
+            "created": "2023-09-28T13:02:49.689Z",
+            "modified": "2023-09-28T13:16:02.808Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\": \"04e69cd9-e504-4efb-a5de-54899d6713b2\",\n  \"nomeTarefa\": \"tarefa1\",\n  \"descricaoTarefa\": \"Escovar os dentes\",\n  \"iconeTarefa\": \"Dente\",\n  \"corTarefa\": \"Amarelo\",\n  \"reptirTarefa\": true,\n  \"frequenciaTarefa\": 5,\n  \"dataEncerramento\": \"10/10/3698\",\n  \"lembrete\": \"ESCOVA OS DENTES SEU PORCO!!!!!\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVtYWlsdGVzdGVAZ21haWwuY29tIiwiaWF0IjoxNjk1OTA1MDAwLCJleHAiOjE2OTU5OTE0MDAsInN1YiI6Im90aGVycyJ9.EJMbSdqPAldcg-tWJYqh_Wo2HPp1FFzFXPSDSZJN4ck"
+            },
+            "tests": []
+        },
+        {
+            "_id": "47d3807e-7812-429f-95c4-e453190cc903",
+            "colId": "ce3c101b-616b-4368-863a-e45a3fc759f0",
+            "containerId": "95f3fc82-5e59-4e24-ba5c-35360d3c9e39",
+            "name": "List Tarefas",
+            "url": "http://localhost:3000/task",
+            "method": "GET",
+            "sortNum": 90000,
+            "created": "2023-09-28T13:02:56.633Z",
+            "modified": "2023-09-28T13:16:44.764Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVtYWlsdGVzdGVAZ21haWwuY29tIiwiaWF0IjoxNjk1OTA1MDAwLCJleHAiOjE2OTU5OTE0MDAsInN1YiI6Im90aGVycyJ9.EJMbSdqPAldcg-tWJYqh_Wo2HPp1FFzFXPSDSZJN4ck"
+            },
+            "tests": []
+        },
+        {
+            "_id": "5b2930d0-71c7-4ba3-87a8-081fcb0d6bd6",
+            "colId": "ce3c101b-616b-4368-863a-e45a3fc759f0",
+            "containerId": "95f3fc82-5e59-4e24-ba5c-35360d3c9e39",
+            "name": "Delete Tarefas",
+            "url": "http://localhost:3000/task/04e69cd9-e504-4efb-a5de-54899d6713b2",
+            "method": "DELETE",
+            "sortNum": 100000,
+            "created": "2023-09-28T13:03:00.873Z",
+            "modified": "2023-09-28T13:17:09.009Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVtYWlsdGVzdGVAZ21haWwuY29tIiwiaWF0IjoxNjk1OTA1MDAwLCJleHAiOjE2OTU5OTE0MDAsInN1YiI6Im90aGVycyJ9.EJMbSdqPAldcg-tWJYqh_Wo2HPp1FFzFXPSDSZJN4ck"
+            },
+            "tests": []
+        },
+        {
+            "_id": "413fdca1-9565-4a96-928e-80a7714ad1b7",
+            "colId": "ce3c101b-616b-4368-863a-e45a3fc759f0",
+            "containerId": "2292ee2e-3a5f-48b5-b14e-170a20406606",
+            "name": "Insert Feed",
+            "url": "http://localhost:3000/feed",
+            "method": "POST",
+            "sortNum": 110000,
+            "created": "2023-09-28T13:18:06.395Z",
+            "modified": "2023-09-28T13:20:34.835Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\": \"id-feed-1\",\n  \"artigoDeProdutividade\": \"qhwqughqwkughqwkluhqwkhtqwkljhqwlthwqkjthqwukthqwthqwkjthqwkjthqkwthqwthqwjthqwkjthqwkjtqwkjthqwkjthk\",\n  \"artigoDeBemEstar\": \"morte\",\n  \"conquistaAmigos\": \"Pão morreu\",\n  \"conquistaUsuario\": \"Seu primeiro amigo morreu\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVtYWlsdGVzdGVAZ21haWwuY29tIiwiaWF0IjoxNjk1OTA1MDAwLCJleHAiOjE2OTU5OTE0MDAsInN1YiI6Im90aGVycyJ9.EJMbSdqPAldcg-tWJYqh_Wo2HPp1FFzFXPSDSZJN4ck"
+            },
+            "tests": []
+        },
+        {
+            "_id": "2764fe94-d225-4214-9483-f4bf074658ac",
+            "colId": "ce3c101b-616b-4368-863a-e45a3fc759f0",
+            "containerId": "2292ee2e-3a5f-48b5-b14e-170a20406606",
+            "name": "Update Feed",
+            "url": "http://localhost:3000/feed/:id",
+            "method": "PUT",
+            "sortNum": 120000,
+            "created": "2023-09-28T13:18:12.043Z",
+            "modified": "2023-09-28T13:22:00.987Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\": \"50c5d680-02db-4dac-b433-abf364d0b22d\",\n  \"artigoDeProdutividade\": \"oi\",\n  \"artigoDeBemEstar\": \"morte\",\n  \"conquistaAmigos\": \"Pão morreu\",\n  \"conquistaUsuario\": \"Seu primeiro amigo morreu\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVtYWlsdGVzdGVAZ21haWwuY29tIiwiaWF0IjoxNjk1OTA1MDAwLCJleHAiOjE2OTU5OTE0MDAsInN1YiI6Im90aGVycyJ9.EJMbSdqPAldcg-tWJYqh_Wo2HPp1FFzFXPSDSZJN4ck"
+            },
+            "tests": []
+        },
+        {
+            "_id": "65b52214-83e4-4bb6-92ae-6c81b7f248c8",
+            "colId": "ce3c101b-616b-4368-863a-e45a3fc759f0",
+            "containerId": "2292ee2e-3a5f-48b5-b14e-170a20406606",
+            "name": "List Feed",
+            "url": "http://localhost:3000/feed",
+            "method": "GET",
+            "sortNum": 130000,
+            "created": "2023-09-28T13:18:17.050Z",
+            "modified": "2023-09-28T13:22:26.814Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVtYWlsdGVzdGVAZ21haWwuY29tIiwiaWF0IjoxNjk1OTA1MDAwLCJleHAiOjE2OTU5OTE0MDAsInN1YiI6Im90aGVycyJ9.EJMbSdqPAldcg-tWJYqh_Wo2HPp1FFzFXPSDSZJN4ck"
+            },
+            "tests": []
+        },
+        {
+            "_id": "ebfe2d58-d1a3-4c05-bc69-546039ccbd32",
+            "colId": "ce3c101b-616b-4368-863a-e45a3fc759f0",
+            "containerId": "2292ee2e-3a5f-48b5-b14e-170a20406606",
+            "name": "Delete Feed",
+            "url": "http://localhost:3000/feed/50c5d680-02db-4dac-b433-abf364d0b22d",
+            "method": "DELETE",
+            "sortNum": 140000,
+            "created": "2023-09-28T13:18:22.714Z",
+            "modified": "2023-09-28T13:22:58.050Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVtYWlsdGVzdGVAZ21haWwuY29tIiwiaWF0IjoxNjk1OTA1MDAwLCJleHAiOjE2OTU5OTE0MDAsInN1YiI6Im90aGVycyJ9.EJMbSdqPAldcg-tWJYqh_Wo2HPp1FFzFXPSDSZJN4ck"
+            },
+            "tests": []
+            
+        }
+       
+      ]
+}	

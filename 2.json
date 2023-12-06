@@ -1,0 +1,211 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Chamadas Remember 2",
+    "dateExported": "2023-11-14T11:18:21.535Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "0bb99951-417b-4c00-bc51-35664df7a7ab",
+            "name": "Progresso",
+            "containerId": "",
+            "created": "2023-11-14T11:16:53.078Z",
+            "sortNum": 50000
+        },
+        {
+            "_id": "3fd67ade-6069-4e9b-a1ab-115afc456397",
+            "name": "Conquistas",
+            "containerId": "",
+            "created": "2023-11-14T11:16:53.079Z",
+            "sortNum": 60000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "e8b13c0f-49a2-40ca-9761-b8750998bb9e",
+            "colId": "82eb0a8b-1381-45bf-917a-bd6bce9d3324",
+            "containerId": "0bb99951-417b-4c00-bc51-35664df7a7ab",
+            "name": "Insert Progress",
+            "url": "http://localhost:3000/progress",
+            "method": "POST",
+            "sortNum": 150000,
+            "created": "2023-11-14T11:16:53.078Z",
+            "modified": "2023-11-14T11:16:53.078Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"historico\": \"indo\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVtYWlsdGVzdGVAZ21haWwuY29tIiwiaWF0IjoxNjk1OTA1MDAwLCJleHAiOjE2OTU5OTE0MDAsInN1YiI6Im90aGVycyJ9.EJMbSdqPAldcg-tWJYqh_Wo2HPp1FFzFXPSDSZJN4ck"
+            },
+            "tests": []
+        },
+        {
+            "_id": "5d8880f1-589e-4d41-b107-c0ab14e2f29e",
+            "colId": "82eb0a8b-1381-45bf-917a-bd6bce9d3324",
+            "containerId": "0bb99951-417b-4c00-bc51-35664df7a7ab",
+            "name": "Update Progress",
+            "url": "http://localhost:3000/progress/:id",
+            "method": "PUT",
+            "sortNum": 160000,
+            "created": "2023-11-14T11:16:53.079Z",
+            "modified": "2023-11-14T11:16:53.079Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\": \"5df11566-6170-43f0-8e42-40837c06dbc0\",\n  \"historico\": \"voltando\" \n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVtYWlsdGVzdGVAZ21haWwuY29tIiwiaWF0IjoxNjk1OTA1MDAwLCJleHAiOjE2OTU5OTE0MDAsInN1YiI6Im90aGVycyJ9.EJMbSdqPAldcg-tWJYqh_Wo2HPp1FFzFXPSDSZJN4ck"
+            },
+            "tests": []
+        },
+        {
+            "_id": "619f8715-c454-4a4f-8c20-370898a548d7",
+            "colId": "82eb0a8b-1381-45bf-917a-bd6bce9d3324",
+            "containerId": "0bb99951-417b-4c00-bc51-35664df7a7ab",
+            "name": "List Progress",
+            "url": "http://localhost:3000/progress",
+            "method": "GET",
+            "sortNum": 170000,
+            "created": "2023-11-14T11:16:53.080Z",
+            "modified": "2023-11-14T11:16:53.080Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVtYWlsdGVzdGVAZ21haWwuY29tIiwiaWF0IjoxNjk1OTA1MDAwLCJleHAiOjE2OTU5OTE0MDAsInN1YiI6Im90aGVycyJ9.EJMbSdqPAldcg-tWJYqh_Wo2HPp1FFzFXPSDSZJN4ck"
+            },
+            "tests": []
+        },
+        {
+            "_id": "229433fe-9d6e-4b8e-98d2-75a5129b974f",
+            "colId": "82eb0a8b-1381-45bf-917a-bd6bce9d3324",
+            "containerId": "0bb99951-417b-4c00-bc51-35664df7a7ab",
+            "name": "Delete Progress",
+            "url": "http://localhost:3000/progress/5df11566-6170-43f0-8e42-40837c06dbc0",
+            "method": "DELETE",
+            "sortNum": 180000,
+            "created": "2023-11-14T11:16:53.081Z",
+            "modified": "2023-11-14T11:16:53.081Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVtYWlsdGVzdGVAZ21haWwuY29tIiwiaWF0IjoxNjk1OTA1MDAwLCJleHAiOjE2OTU5OTE0MDAsInN1YiI6Im90aGVycyJ9.EJMbSdqPAldcg-tWJYqh_Wo2HPp1FFzFXPSDSZJN4ck"
+            },
+            "tests": []
+        },
+        {
+            "_id": "98a7e14c-5ec7-40ce-a74a-9fa28c36b751",
+            "colId": "82eb0a8b-1381-45bf-917a-bd6bce9d3324",
+            "containerId": "3fd67ade-6069-4e9b-a1ab-115afc456397",
+            "name": "Insert Achievements",
+            "url": "http://localhost:3000/achievements",
+            "method": "POST",
+            "sortNum": 190000,
+            "created": "2023-11-14T11:16:53.082Z",
+            "modified": "2023-11-14T11:16:53.082Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"conquista1\": true,\n  \"conquista2\": false,\n  \"conquista3\": true,\n  \"conquista4\": false,\n  \"conquista5\": false\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVtYWlsdGVzdGVAZ21haWwuY29tIiwiaWF0IjoxNjk1OTA1MDAwLCJleHAiOjE2OTU5OTE0MDAsInN1YiI6Im90aGVycyJ9.EJMbSdqPAldcg-tWJYqh_Wo2HPp1FFzFXPSDSZJN4ck"
+            },
+            "tests": []
+        },
+        {
+            "_id": "aadc01e4-1043-4bea-9351-9716d5ba18b2",
+            "colId": "82eb0a8b-1381-45bf-917a-bd6bce9d3324",
+            "containerId": "3fd67ade-6069-4e9b-a1ab-115afc456397",
+            "name": "Update Achievements",
+            "url": "http://localhost:3000/achievements/:id",
+            "method": "PUT",
+            "sortNum": 200000,
+            "created": "2023-11-14T11:16:53.083Z",
+            "modified": "2023-11-14T11:16:53.083Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\": \"1d43b6d9-39dc-4711-bcb4-b7106af8d357\",\n  \"conquista1\": false,\n  \"conquista2\": true,\n  \"conquista3\": true,\n  \"conquista4\": true,\n  \"conquista5\": true\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVtYWlsdGVzdGVAZ21haWwuY29tIiwiaWF0IjoxNjk1OTA1MDAwLCJleHAiOjE2OTU5OTE0MDAsInN1YiI6Im90aGVycyJ9.EJMbSdqPAldcg-tWJYqh_Wo2HPp1FFzFXPSDSZJN4ck"
+            },
+            "tests": []
+        },
+        {
+            "_id": "986a969c-3a49-4dfe-a5bd-17d7b82ada9c",
+            "colId": "82eb0a8b-1381-45bf-917a-bd6bce9d3324",
+            "containerId": "3fd67ade-6069-4e9b-a1ab-115afc456397",
+            "name": "List Achievements",
+            "url": "http://localhost:3000/achievements",
+            "method": "GET",
+            "sortNum": 210000,
+            "created": "2023-11-14T11:16:53.084Z",
+            "modified": "2023-11-14T11:16:53.084Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVtYWlsdGVzdGVAZ21haWwuY29tIiwiaWF0IjoxNjk1OTA1MDAwLCJleHAiOjE2OTU5OTE0MDAsInN1YiI6Im90aGVycyJ9.EJMbSdqPAldcg-tWJYqh_Wo2HPp1FFzFXPSDSZJN4ck"
+            },
+            "tests": []
+        },
+        {
+            "_id": "4dfe0dab-9a42-4799-af6f-c16697057dde",
+            "colId": "82eb0a8b-1381-45bf-917a-bd6bce9d3324",
+            "containerId": "3fd67ade-6069-4e9b-a1ab-115afc456397",
+            "name": "Delete Achievements",
+            "url": "http://localhost:3000/achievements/b71a93cc-cca4-43a5-9f41-95d050166aa1",
+            "method": "DELETE",
+            "sortNum": 220000,
+            "created": "2023-11-14T11:16:53.085Z",
+            "modified": "2023-11-14T11:16:53.085Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVtYWlsdGVzdGVAZ21haWwuY29tIiwiaWF0IjoxNjk1OTA1MDAwLCJleHAiOjE2OTU5OTE0MDAsInN1YiI6Im90aGVycyJ9.EJMbSdqPAldcg-tWJYqh_Wo2HPp1FFzFXPSDSZJN4ck"
+            },
+            "tests": []
+        },
+        {
+            "_id": "f4906d27-dbcd-47bb-95a4-66a74e3137e0",
+            "colId": "82eb0a8b-1381-45bf-917a-bd6bce9d3324",
+            "containerId": "",
+            "name": "create profile",
+            "url": "http://localhost:3000/profile",
+            "method": "POST",
+            "sortNum": 230000,
+            "created": "2023-11-14T11:17:11.082Z",
+            "modified": "2023-11-14T11:18:14.776Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nome\": \"sem-privilegios\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVtYWlsdGVzdGVAZ21haWwuY29tIiwiaWF0IjoxNjk1OTA1MDAwLCJleHAiOjE2OTU5OTE0MDAsInN1YiI6Im90aGVycyJ9.EJMbSdqPAldcg-tWJYqh_Wo2HPp1FFzFXPSDSZJN4ck"
+            },
+            "tests": []
+        }
+    ]
+}

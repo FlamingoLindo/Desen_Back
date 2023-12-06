@@ -1,0 +1,16 @@
+{
+   "type": "postgres",
+   "host": "localhost",
+   "port": 5432,
+   "username": "postgres",
+   "password": "*SENHA DO PGADMIN*",
+   "database": "app",
+   "synchronize": false,
+   "logging": false,
+   "migrations": ["./src/Database/Migrations/*.ts"],
+   "entities": ["./src/Entities/*.ts"],
+   "cli": {
+       "migrationsDir": "./src/Database/Migrations",
+       "entitiesDir": "./src/Entities"
+   }
+}

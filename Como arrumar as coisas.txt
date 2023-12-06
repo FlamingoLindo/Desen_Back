@@ -1,0 +1,27 @@
+1° Abra o terminal e digite "yarn" para que todas as bibliotecas e o types sejam instalados.
+
+2° Abra o arquivo "ormconfig.json" e dentro dele mude os campos "password" e "database" de acordo com o que você fez no seu pg admin.
+
+3° Abra o o pgadmin.
+
+4° No terminal novemente digite "yarn typeorm migration:generate -n user" e aperte enter (user vai ser o nome da migration, então você pode mudar para qualquer nome), depois
+   digite "yarn typeorm migration:run" e espere aparecer no terminal que as tabelas foram criadas com sucesso.
+
+5° No pgadmin siga essa imagem para ver se as tabelas foram realmente criadas com sucesso https://gachi.gay/UP7T3 (pode clicar no link a url é estranha é um uploader de imagem).
+
+6° No terminal agora digite "yarn dev" e espere o programa criar a conexão com o servidor.
+
+7° Você vai abriro thunder e importar os arquivos 1 e 2, que é a onde as chamadas estão localizadas.
+
+8° LOGIN https://kappa.lol/jSdGv
+
+9° INSERT https://gachi.gay/Xvd_A 
+
+10° UPDATE https://gachi.gay/hsEsz (ignora o 2° copiar sem aspas kkkkkk) e https://gachi.gay/Mftkg 
+
+11° LIST https://gachi.gay/SAF_m 
+
+12° DELETE https://gachi.gay/-7tPC 
+
+13° Para fazer as chamadas das outras entidades é só você seguir o mesmo padrão, apenas mudando o id no delte, colocando a chave gerada no login nas chamadas que precisam 
+    adiconar no Auth (UPDATE, LIST e DELETE)
